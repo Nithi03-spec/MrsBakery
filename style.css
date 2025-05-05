@@ -1,0 +1,472 @@
+/* General Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-image: url('images/bg10.jpg');
+    background-size: cover;
+}
+
+.bg {
+    background-image: url('images/bg10.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    color:white;
+    padding: 25px;
+    min-height: 100vh; 
+}
+
+nav{
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px 30px;
+}
+
+nav a {
+
+    margin: 0 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #fff;
+    padding-top: 10px;
+}
+
+
+header {
+    background-size: cover; /* Make sure the image covers the whole header */
+    background-position: center;
+    padding: 5 px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+}
+
+
+.logo {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Maintain a square aspect ratio */
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image is cropped to fit the circle */
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+
+ h5{
+    font-size: 2rem;
+    text-align:center;
+}
+
+
+.hero {
+     /* Background image for hero section */
+    background-position: center;
+    padding: 100px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 2.0rem;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn {
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    color:black;
+}
+
+/* About Section */
+#about {
+     /* Background image for About section */
+    background-size: cover; /* Ensures image covers the section */
+    background-position: center;
+    padding: 50px 20px;
+    color: #fff;
+}
+
+#about h3 {
+    
+    font-size: 2rem;
+    
+}
+
+
+.view-cart {
+    margin-top: 50px;
+    margin-left: 700px;
+    margin-right: 600px;
+    display: flex;
+    justify-content:center ;
+    background: #fff;
+    color: saddlebrown;
+    padding: 15px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.view-cart:hover {
+    background: saddlebrown;
+    color: white;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;  /* Remove the max-width limit */
+    margin: 0;  /* Remove any margins */
+    padding: 20px;  /* Add some padding around the container */
+    gap: 100px;  /* Add space between the sidebar and main content */
+}
+
+/* Sidebar (Categories) */
+aside {
+    width: 25%;  /* Keep sidebar width the same */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+aside h2 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    padding: 10px;
+    background: saddlebrown;
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Menu Grid */
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;  /* Align items to the left */
+    gap: 20px;  /* Space between items */
+    padding: 10px;
+    width: 90%;  /* Increase the width of the menu section */
+
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: calc(50% - 10px);  /* Ensure two items per row */
+    height: 180px;  /* Slightly taller boxes */
+    box-sizing: border-box;  /* Make sure padding is included in width calculation */
+}
+
+/* Keep the hover effect */
+.menu-item:hover {
+    transform: scale(1.05); /* Slight scale on hover for better effect */
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.menu-item button {
+    background: saddlebrown;
+    color: white;
+    border: none;
+    padding: 12px;  /* Increased padding for better button appearance */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    width: 120px;  /* Set width for buttons */
+    text-align: center;
+    margin-left:auto;
+}
+
+.menu-item button:hover {
+    background: #a0522d;
+}
+
+/* Order Section */
+#order {
+    background-size: cover; /* Ensures image covers the section */
+    background-position: center;
+    padding: 50px 20px;
+}
+
+#order h3 {
+    font-size: 2rem;
+}
+
+/* Contact Section */
+#contact {
+    font-size: small;
+    background-color: #f8f9fa; /* Light background for a clean look */
+    padding: 0px 0px;
+}
+
+.bang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    gap: 70px;
+    font-style: italic;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+.contact-info, .tirp {
+    width: 40%;
+    text-align: left;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-info h2, .tirp h2 {
+    font-size: 1.5rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.contact-info p, .tirp p {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #444;
+    margin: 8px 0;
+    gap: 12px; /* Space between icon and text */
+}
+
+.p {
+ width: 25px;
+    height: 25px;
+}
+
+/* Cart Section */
+#cart {
+    background: white;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#cart h3 {
+    font-size: 2rem;
+    color: saddlebrown;
+    margin-bottom: 15px;
+}
+
+#cart p{
+    font-size: 2rem;
+    color: saddlebrown;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items li {
+    background: saddlebrown;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+#total-price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: saddlebrown;
+}
+
+#check{
+    background: saddlebrown;
+    color: white;
+    font-size: 1.5rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+#check:hover {
+    background: #a0522d;
+}
+
+.remove-item{
+    background:white;
+    color: #a0522d;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    aside {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    aside ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    aside ul li {
+        width: 80%;
+    }
+
+    main {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* Make cart box bigger */
+    #cart {
+        max-width: 90%;
+        padding: 30px;
+    }
+
+    .menu-item {
+        width: 90%; /* Single box per row on mobile */
+        height: 150px; /* Adjusted for mobile */
+    }
+
+    .menu-item img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .view-cart {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* General Styling for the Checkout Page */
+#checkout {
+    background:white;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+#checkout h3 {
+    font-size: 3.5rem;
+    color:saddlebrown;
+    margin-bottom: 20px;
+}
+
+#checkout p {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color:#a0522d;
+}
+
+/* Payment Buttons Styling */
+.payment-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.payment-options a {
+    text-decoration: none;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color:white;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn {
+    background-color: #128C7E;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;
+}
+
+.googlepay-btn {
+    background-color: #4285F4; /* Google Pay Blue */
+}
+
+.googlepay-btn:hover {
+    background-color: #3367D6;
+}
