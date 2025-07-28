@@ -362,10 +362,16 @@ aside ul li {
 }
 /* Responsive Design */
 @media (max-width: 768px) {
+    .bg{
+        background-attachment: fixed;
+        justify-content: center;
+        width: 100%;
+    }
     nav {
         flex-direction: row;
-        justify-content: center;
+        justify-content:center;
         gap: 10px;
+        
     }
 
     .container {
@@ -469,10 +475,5 @@ button {
     background-color: #128C7E;
 }
 
-.googlepay-btn {
-    background-color: #4285F4; /* Google Pay Blue */
-}
 
-.googlepay-btn:hover {
-    background-color: #3367D6;
-}
+
