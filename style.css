@@ -297,6 +297,7 @@ aside ul li {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+
 }
 
 #cart h3 {
@@ -345,7 +346,12 @@ aside ul li {
     margin-top: 15px;
 
 }
+#cart button{
+        background: white;
+    border: 5px solid saddlebrown;
 
+    color: #a0522d;
+}
 #check:hover {
     background: #a0522d;
 }
