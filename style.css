@@ -401,7 +401,7 @@ aside ul li {
     }
 
     .menu-item {
-        width: 90%; /* Single box per row on mobile */
+        width: 130%; /* Single box per row on mobile */
         height: 150px; /* Adjusted for mobile */
     }
 
