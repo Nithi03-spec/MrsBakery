@@ -49,7 +49,7 @@ cakeShooters: [
     { name: "Biscoff Tres Leches", price: 140, img: "bis tress.jpg" },
     { name: "Blueberry Tres Leches", price: 130, img:"bb tress.jpg" },
     { name: "Strawberry Tres Leches", price: 130, img: "sb tress.jpg" },
-    { name: "Mango Tres Leches", price: 130, img: "mango tress.wepg" },
+    { name: "Mango Tres Leches", price: 130, img: "mango tress.webp" },
     { name: "RedVelvet Tres Leches", price: 135, img: "rv tress.jpg" }
 ],
     brownies: [

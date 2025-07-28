@@ -58,9 +58,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // If on cart page, render cart
-    if (window.location.pathname.includes("cart.html")) {
-        updateCart();
-    }
+   if (document.getElementById("cart-items")) {
+    updateCart();
+}
 
     // Checkout button (WhatsApp)
     if (checkoutButton) {
